@@ -1,0 +1,153 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 25px 20px;
+    max-width: 1230px;
+}
+
+.contact-form__title {
+    color: #c4b484;
+    font-family: serif;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-row {
+display: flex;
+align-items: center;
+margin-top: 20px;
+justify-content: center;
+gap: 40px;
+}
+
+.form-row__label{
+    width: 240px;
+    color: #c4b484;
+    font-family: serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.form-row__need {
+    color: #fc6753;
+}
+
+.form-contact {
+    display: block;
+    justify-content: space-between
+}
+
+.form-contact__name{
+    display: flex;
+    gap:20px
+}
+
+.form-contact__name-input {
+    background-color: #ebe8e8;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-radio{
+color: #c4b484;
+font-family:serif ;
+font-size: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 50px;
+accent-color:#7a5e15
+}
+
+.form-contact__mall-input{
+    background-color: #ebe8e8;
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 400px;
+        padding: 10px;
+}
+
+.form-contact__tel-input{
+    display: flex;
+    align-items: center;
+    gap: 10;
+}
+
+.form-contact__tel-input input{
+    max-width: 100px;
+    flex: 2;
+            background-color: #ebe8e8;
+            border: none;
+            outline: none;
+            height: 30px;
+            padding: 10px;
+}
+
+.form-contact__field{
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+}
+
+.form-contact__address-input{
+background-color: #ebe8e8;
+        border: none;
+        outline: none;
+        height: 30px;
+            width: 400px;
+            padding: 10px;
+}
+
+.form-contact__address2-input{
+    background-color: #ebe8e8;
+        border: none;
+        outline: none;
+        height: 30px;
+            width: 400px;
+            padding: 10px;
+}
+
+.form-contact__contact-input{
+    background-color: #ebe8e8;
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 200px;
+        padding: 10px;
+}
+
+.form-contact__contact2-input{
+    background-color: #ebe8e8;
+        border: none;
+        outline: none;
+        height: 100px;
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 50px;
+}
+
+
+
+.check-form{
+display: flex;
+    justify-content: center;
+}
+
+.check-form__button{
+    width: 50px;
+}
+
+.check-form__button-submit{
+    color: #fff;
+    background-color: #a69363;
+    font-size: 15px;
+    padding: 10px 0;
+    border: none;
+    width: 100px;
+    margin: 10px 0;
+}
