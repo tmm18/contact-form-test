@@ -1,0 +1,15 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 25px 20px;
+    max-width: 1230px;
+    padding-left: 60px;
+}
+
+.contact-form__title {
+    color: #c4b484;
+    font-family: serif;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+}

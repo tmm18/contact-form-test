@@ -2,6 +2,7 @@
     margin: 0 auto;
     padding: 25px 20px;
     max-width: 1230px;
+padding-left: 60px;
 }
 
 .contact-form__title {
@@ -16,17 +17,19 @@
 .contact-row {
 display: flex;
 align-items: center;
-margin-top: 20px;
-justify-content: center;
+margin: 20px auto 0;
 gap: 40px;
+justify-content: flex-start;
+max-width: 750px;
 }
 
 .form-row__label{
     width: 240px;
+    text-align: left;
     color: #c4b484;
     font-family: serif;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .form-row__need {
@@ -118,7 +121,13 @@ background-color: #ebe8e8;
         outline: none;
         height: 30px;
         width: 200px;
-        padding: 10px;
+}
+
+.select{
+    background-color:#ebe8e8 ;
+    color: #c2bfb6;
+    text-align: center;
+    border: none;
 }
 
 .form-contact__contact2-input{
@@ -130,7 +139,6 @@ background-color: #ebe8e8;
         padding: 10px;
         margin-bottom: 50px;
 }
-
 
 
 .check-form{
@@ -150,4 +158,9 @@ display: flex;
     border: none;
     width: 100px;
     margin: 10px 0;
+}
+
+.form__error{
+    color: red;
+    font-size: 15px;
 }

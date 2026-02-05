@@ -16,14 +16,14 @@ class ContactContactsTable extends Migration
     Schema::create('contacts',function(Blueprint $table)
     {
     $table->id();
-        $table->string('category_id');
+        $table->integer('category_id');
         $table->string('first_name');
         $table->string('last_name');
         $table->tinyInteger('gender');
         $table->string('email');
         $table->string('tel');
         $table->string('address');
-        $table->string('building');
+        $table->string('building')->nullable();
         $table->text('detail');
         $table->timestamp('created_at');
         $table->timestamp('updated_at');
